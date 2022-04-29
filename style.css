@@ -1,0 +1,49 @@
+body {
+    background-color: aliceblue;
+}
+
+.titreBienvenue {
+    text-align: center;
+    font-size: 34pt ;
+    color: goldenrod ;
+    font-family: 'Poller One', cursive;
+    background-color: rgb(221, 239, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titreSousPartie {
+    text-align: left;
+    margin: 25px;
+    font-size: 20pt;
+    color: darkgoldenrod;
+    font-family: 'Poller One', cursive;
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+    margin: 25px;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    text-indent: 40px;
+}
+
+.vueDeMetz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: auto;
+  }
+
+.photoMetz {
+    max-width: 1000px;
+}
+
+.liensExternes {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
